@@ -1,4 +1,4 @@
-# Simple Java Calulator
+# Simple Javascript Calulator
 
 ## A small calulator for common funnel conversions I do
 
