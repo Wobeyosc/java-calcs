@@ -3,4 +3,4 @@ function conversionRate (visitors, percentageConvert) {
     return visitors * percentageConvert;
 }
 
-console.log(conversionRate(1000));
+console.log(conversionRate(1000, 5));
