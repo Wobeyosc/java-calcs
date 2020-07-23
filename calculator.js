@@ -12,6 +12,6 @@ function conversionRate (visitors, percentage) {
 
 result = conversionRate(siteVisits, conversionPercent);
 
-console.log("If you have " + siteVisits + " and " + conversionPercent + "% conversion then you have");
+console.log("If you have " + siteVisits + " site visits a month and " + conversionPercent + "% conversion then you have");
 
 console.log(result + " Potential customers");
