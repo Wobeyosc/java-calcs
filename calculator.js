@@ -1,6 +1,8 @@
 
-let siteVisits = document.getElementById('numVisit').value;
-let conversionPercent = document.getElementById('rate').value;
+let siteVisits = 1000;
+let conversionPercent = 10;
+siteVisits = document.getElementById('numVisit').value;
+conversionPercent = document.getElementById('rate').value;
 
 
 function conversionRate (visitors, percentage) {
