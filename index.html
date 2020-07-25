@@ -13,7 +13,7 @@
     <div>
         <form onsubmit="formValues(); return false">
             <label for ="numVisit" >Number of visitors:</label>
-            <input type ="number" id="numVisit">
+            <input type ="number" min = "0" id="numVisit">
             <label for ="rate" >Conversion Rate of visitors:</label>
             <input type ="number" id="rate" min="0" max="100"> <span>%</span>
             <input type="submit" value ="submit">
