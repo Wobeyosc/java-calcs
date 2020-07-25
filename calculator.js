@@ -1,8 +1,6 @@
-let siteVisits = 1000
-let conversionPercent = 5
 
-siteVisits = prompt("Enter number of visitors", "1000");
-conversionPercent = prompt("Enter perecentage of visitors without % sign", "5");
+let siteVisits = document.getElementById('numVisit').value;
+let conversionPercent = document.getElementById('rate').value;
 
 
 function conversionRate (visitors, percentage) {
