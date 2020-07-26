@@ -3,7 +3,7 @@ let conversionPercent = 10;
 
 function conversionRate (visitors, percentage) {
     percentage = percentage / 100;
-    return visitors * percentage;
+    return Math.floor(visitors * percentage);
 }
 
 function formValues () {
