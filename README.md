@@ -11,7 +11,8 @@ e.g. 1000 people visit a page * 0.2 conversion rate =~ 200 people purchasing a p
 * Does not let you put in price of product you are selling to calculate total profit
 * Form is basic html without any formatting
 * Does not display result under form fields / on page only in console. 
-* Needs to let you add a price to be able to calculate total esitmated profit
+* Needs to let you add a price to be able to calculate total estimated profit
+* Page is not hosted so has to be run in console
 
 ### Extra features
 ---
