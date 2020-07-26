@@ -14,4 +14,11 @@ function formValues () {
     console.log(result + " Potential customers");
 }
 
+function updatePage () {
+    formValues();
+    document.getElementById("visitors").innerHTML = siteVisits;
+    document.getElementById("convertID").innerHTML = conversionPercent;
+    document.getElementById("customerResult").innerHTML = result;
+    document.getElementById("results").style.color = "black";
+}
 
