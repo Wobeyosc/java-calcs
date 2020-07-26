@@ -11,7 +11,7 @@
     <p>Using vanilla javascript</p>
 
     <div>
-        <form onsubmit="formValues(); return false">
+        <form onsubmit="updatePage(); return false">
             <label for ="numVisit" >Number of visitors:</label>
             <input type ="number" min = "0" id="numVisit">
             <label for ="rate" >Conversion Rate of visitors:</label>
@@ -23,9 +23,9 @@
 
     <div style="border: 2px solid grey; margin: 30px; width: 50%; padding: 20px;">
         <h2>Result</h2>
-        <h3>If your number of visitors is <span>4</span> per month,</h3> 
-        <h3>And your conversion rate is <span>3</span>% <h3>
-        <h3>Then you have <span>30</span> potential customers per month </h3>
+        <h3>If your number of visitors is <span id ="visitors">1000</span> per month,</h3> 
+        <h3>And your conversion rate is <span id ="convertID">5</span>% <h3>
+        <h3>Then you have <span id ="customerResult">50</span> potential customers per month </h3>
     </div>
 </body>
 </html>
