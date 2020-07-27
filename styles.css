@@ -11,6 +11,19 @@ main {
     
 }
 
+.hero-layout {
+    display: flex;
+}
+
+.hero-text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 30px;
+}
+
 h1 {
     color: aliceblue;
     font-size: 60px;
@@ -29,11 +42,33 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 2px 2px #0249a5;
+    text-align: center;
 }
 
+.form input[type=number] {
+    font-size: 16px;
+    padding: 5px;
+}
+
+label {
+    display: block;
+    margin: 10px;
+    padding: 0px;
+}
 
 #results {
     color: rgba(255, 255, 255, 0);
+    font-size: 25px;
+    padding: 20px 60px;
+}
+
+span {
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 100;
 }
 
 #calculate {

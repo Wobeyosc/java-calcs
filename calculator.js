@@ -20,5 +20,9 @@ function updatePage () {
     document.getElementById("convertID").innerHTML = conversionPercent;
     document.getElementById("customerResult").innerHTML = result;
     document.getElementById("results").style.color = "black";
+    document.getElementById("results").style.backgroundColor = "aliceblue";
+    document.getElementById("visitors").style.color = "#0249a5";
+    document.getElementById("convertID").style.color = "#0249a5";
+    document.getElementById("customerResult").style.color = "#0249a5";
 }
 
