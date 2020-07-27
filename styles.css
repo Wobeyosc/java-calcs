@@ -5,10 +5,33 @@ body {
     height: 100vh;
 }
 
-#results {
+main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: 100;
+    text-shadow: 2px 2px #0249a5;
+}
+
+.form {
     background-color: aliceblue;
-    margin: 30px; 
-    width: 50%; 
-    padding: 20px; 
-    color: white;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#results {
+    color: rgba(255, 255, 255, 0);
 }
