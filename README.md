@@ -6,7 +6,7 @@ e.g. 1000 people visit a page * 0.2 conversion rate =~ 200 people purchasing a p
 
 **Version 1**
 ![version 1]
-(https://wobeyosc.github.com/version1.png)
+(https://wobeyosc.github.com/javascript-calcs/blob/master/version1.png)
 
 ### Current Limitations & Next Steps
 --- 
