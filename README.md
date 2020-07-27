@@ -8,11 +8,13 @@ e.g. 1000 people visit a page * 0.2 conversion rate =~ 200 people purchasing a p
 --- 
 
 * ~~Only accepts whole numbers for conversion rate and not decimal (e.g 3.5%)~~
+(Now accepts up to 1 decimal place)
 * Does not let you put in price of product you are selling to calculate total profit
-* Form is basic html without any formatting
+* ~~Form is basic html without any formatting~~
 * ~~Does not display result under form fields / on page only in console.~~
 * ~~Page is not hosted so page has to be run locally~~
 * Be able to calculate between number of visitors per day, week, month and year easily.
+* Not responsive
 
 ### Extra features
 ---
